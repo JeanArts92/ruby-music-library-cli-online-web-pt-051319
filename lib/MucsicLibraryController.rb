@@ -70,6 +70,6 @@ def play_song
   input = gets.strip.to_i
   song = Song.all[input]
   
-  puts "#{song"
+  puts "Playing #{song.name}"
 
 end 
