@@ -78,3 +78,7 @@ def play_song
 
 
 end 
+
+require_relative './config/environment'
+controller = MusicLibraryController.new('./spec/fixtures/mp3s')
+controller.play_song
