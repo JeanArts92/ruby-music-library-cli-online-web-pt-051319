@@ -69,9 +69,5 @@ def play_song
   
   input = gets.strip.to_i
   
-  if input == "plays" 
-    puts "Playing Larry Csonka by Action Bronson"
-  end
-end 
 
 end 
