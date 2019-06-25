@@ -1,7 +1,7 @@
 require 'pry'
 
 class MusicImporter 
-  attr_reader :path 
+  attr_reader :path, :song, :artist, :genre, :musiclibrarycontroller
   
   def initialize(path)
     @path = path
